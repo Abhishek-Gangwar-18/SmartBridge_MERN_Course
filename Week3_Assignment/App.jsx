@@ -21,7 +21,11 @@ function App() {
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-800">3. User Card</h2>
-          <UserCard name="John Doe" email="john@example.com" />
+          <UserCard 
+            name="hello world" 
+            email="hello@example.com"
+            role="Software Engineer"
+          />
         </section>
 
         <section className="space-y-4">
